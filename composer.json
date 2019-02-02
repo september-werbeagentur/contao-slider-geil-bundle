@@ -1,5 +1,5 @@
 {
-  "name": "september/contao-slider-geil-bundle",
+  "name": "september-werbeagentur/contao-slider-geil-bundle",
   "type": "contao-bundle",
   "description": "Slider extension for Contao Open Source CMS",
   "license": "MIT",
@@ -29,12 +29,12 @@
   },
   "autoload": {
     "psr-4": {
-      "SeptemberWerbeagentur\\ContaoSliderGeilBundle\\": "src/"
+      "September\\ContaoSliderGeilBundle\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "SeptemberWerbeagentur\\ContaoSliderGeilBundle\\": "tests/"
+      "September\\ContaoSliderGeilBundle\\": "tests/"
     }
   }
 }
