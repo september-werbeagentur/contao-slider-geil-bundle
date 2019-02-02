@@ -6,6 +6,6 @@ namespace September\SliderGeilBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class SliderGeilBundle extends Bundle
+class ContaoSliderGeilBundle extends Bundle
 {
 }

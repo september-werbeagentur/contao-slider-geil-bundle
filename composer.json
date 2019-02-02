@@ -1,0 +1,40 @@
+{
+  "name": "september/contao-slider-geil-bundle",
+  "type": "contao-bundle",
+  "description": "Slider extension for Contao Open Source CMS",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "September",
+      "homepage": "https://gitlab.com/septemberdd"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "contao/core-bundle": "4.6.*",
+    "symfony/framework-bundle": "^3.3"
+  },
+  "conflict": {
+    "contao/core": "*",
+    "contao/manager-plugin": "<2.0 || >=3.0"
+  },
+  "require-dev": {
+    "contao/manager-plugin": "^2.0",
+    "doctrine/doctrine-cache-bundle": "^1.3",
+    "phpunit/phpunit": "^5.7.26",
+    "symfony/phpunit-bridge": "^3.2"
+  },
+  "extra": {
+    "contao-manager-plugin": "September\\ContaoSliderGeilBundle\\ContaoManager\\Plugin"
+  },
+  "autoload": {
+    "psr-4": {
+      "September\\ContaoSliderGeilBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "September\\ContaoSliderGeilBundle\\": "tests/"
+    }
+  }
+}

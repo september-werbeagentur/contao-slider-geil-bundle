@@ -1,1 +1,1 @@
-# Slider Bundle for Contao 4
+# Contao SliderGeil Bundle
