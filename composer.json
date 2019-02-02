@@ -1,12 +1,12 @@
 {
-  "name": "september/contao-slider-geil-bundle",
+  "name": "september-werbeagentur/contao-slider-geil-bundle",
   "type": "contao-bundle",
   "description": "Slider extension for Contao Open Source CMS",
   "license": "MIT",
   "authors": [
     {
-      "name": "September",
-      "homepage": "https://gitlab.com/septemberdd"
+      "name": "September Werbeagentur",
+      "homepage": "https://github.com/september-werbeagentur"
     }
   ],
   "require": {
