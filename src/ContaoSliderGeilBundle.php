@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace SeptemberWerbeagentur\SliderGeilBundle;
+namespace SeptemberWerbeagentur\ContaoSliderGeilBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
