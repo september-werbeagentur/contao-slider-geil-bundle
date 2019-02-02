@@ -1,8 +1,8 @@
 <?php
 
-namespace September\ContaoSliderGeilBundle\Tests;
+namespace SeptemberWerbeagentur\ContaoSliderGeilBundle\Tests;
 
-use September\ContaoSliderGeilBundle\ContaoSliderGeilBundle;
+use SeptemberWerbeagentur\ContaoSliderGeilBundle\ContaoSliderGeilBundle;
 use PHPUnit\Framework\TestCase;
 
 class ContaoSliderGeilBundleTest extends TestCase
@@ -11,6 +11,6 @@ class ContaoSliderGeilBundleTest extends TestCase
     {
         $bundle = new ContaoSliderGeilBundle();
 
-        $this->assertInstanceOf('September\ContaoSliderGeilBundle\ContaoSliderGeilBundle', $bundle);
+        $this->assertInstanceOf('SeptemberWerbeagentur\ContaoSliderGeilBundle\ContaoSliderGeilBundle', $bundle);
     }
 }

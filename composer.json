@@ -1,12 +1,12 @@
 {
-  "name": "september/contao-slider-geil-bundle",
+  "name": "september-werbeagentur/contao-slider-geil-bundle",
   "type": "contao-bundle",
   "description": "Slider extension for Contao Open Source CMS",
   "license": "MIT",
   "authors": [
     {
-      "name": "September",
-      "homepage": "https://gitlab.com/septemberdd"
+      "name": "September Werbeagentur",
+      "homepage": "https://github.com/september-werbeagentur"
     }
   ],
   "require": {
@@ -25,16 +25,16 @@
     "symfony/phpunit-bridge": "^3.2"
   },
   "extra": {
-    "contao-manager-plugin": "September\\ContaoSliderGeilBundle\\ContaoManager\\Plugin"
+    "contao-manager-plugin": "SeptemberWerbeagentur\\ContaoSliderGeilBundle\\ContaoManager\\Plugin"
   },
   "autoload": {
     "psr-4": {
-      "September\\ContaoSliderGeilBundle\\": "src/"
+      "SeptemberWerbeagentur\\ContaoSliderGeilBundle\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "September\\ContaoSliderGeilBundle\\": "tests/"
+      "SeptemberWerbeagentur\\ContaoSliderGeilBundle\\": "tests/"
     }
   }
 }
