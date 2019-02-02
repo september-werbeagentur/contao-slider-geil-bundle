@@ -1,5 +1,5 @@
 {
-  "name": "september-werbeagentur/contao-slider-geil-bundle",
+  "name": "september/contao-slider-geil-bundle",
   "type": "contao-bundle",
   "description": "Slider extension for Contao Open Source CMS",
   "license": "MIT",
@@ -25,7 +25,7 @@
     "symfony/phpunit-bridge": "^3.2"
   },
   "extra": {
-    "contao-manager-plugin": "SeptemberWerbeagentur\\ContaoSliderGeilBundle\\ContaoManager\\Plugin"
+    "contao-manager-plugin": "September\\ContaoSliderGeilBundle\\ContaoManager\\Plugin"
   },
   "autoload": {
     "psr-4": {

@@ -1,6 +1,6 @@
 <?php
 
-namespace  SeptemberWerbeagentur\ContaoSliderGeilBundle\DependencyInjection;
+namespace  September\ContaoSliderGeilBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

@@ -1,12 +1,12 @@
 <?php
 
-namespace SeptemberWerbeagentur\ContaoSliderGeilBundle\ContaoManager;
+namespace September\ContaoSliderGeilBundle\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
-use SeptemberWerbeagentur\ContaoSliderGeilBundle\ContaoSliderGeilBundle;
+use September\ContaoSliderGeilBundle\ContaoSliderGeilBundle;
 
 class Plugin implements BundlePluginInterface
 {
